@@ -43,7 +43,7 @@ public class Database {
     }
 
     private final String USERS_FILE_PATH = "./users.json";
-    private final String CONVERSATIONS_FILE_PATH = ".conversations.json";
+    private final String CONVERSATIONS_FILE_PATH = "./conversations.json";
 
     private final JsonObject users;
     private final JsonObject conversations;
