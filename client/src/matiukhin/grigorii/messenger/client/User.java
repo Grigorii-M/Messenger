@@ -11,7 +11,7 @@ public class User {
     public static User getInstance() {
         if (instance == null) {
             // Todo: kick out to the auth panel
-            System.err.print("User undefined");
+            System.err.print("User undefined!!!");
         }
 
         return instance;
